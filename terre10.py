@@ -15,7 +15,7 @@ if len(sys.argv) < 2:
     print("erreur .")
     sys.exit(1)
 
-# Si l'argument donné n'est pas un nombre entier on affichera un message d'erreur
+# Si l'argument donné n'est pas un nombre on affichera un message d'erreur
 if not sys.argv[1].isdigit():
     print("erreur .")
     sys.exit(1)
